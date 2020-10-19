@@ -76,6 +76,6 @@ I will investigate and attempt a fix.
 
 ## Acknowledgments
 
-Much of the initial code is based two answers by
+Much of the initial code is based on two answers by
 [cor-el](https://support.mozilla.org/en-US/user/cor-el) in the Firefox
 Support Forums. Links to the relevant answers are provided in code.
