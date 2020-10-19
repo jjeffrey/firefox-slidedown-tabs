@@ -15,14 +15,18 @@ Afterward, copy the files from this repo in the `chrome` folder
 of your `profile` folder (as found in `about:support`).
 
 If you want to clone and track the Git repo directly, I recommend
-cloning it into a subdirectory of `chrome` and placing
-the `userChrome.css` in the `chrome` with the single line:
+cloning the repo into a subdirectory of `chrome`. Then, you can create
+a blank `userChrome.css` in the `chrome` folder and
+he single line:
 
 ```css
     @import(firefox-slidedown-tabs/userChrome.css)
 ```
 
-If you want to place the Git repo elsewhere on your computer,
+This allows you to combine `firefox-slidedown-tabs` with other
+customizations in your base `userChrome.css`.
+
+If you want to place the Git repo folder elsewhere on your computer,
 a good idea is to place a symbolic link to it within the `chrome`
 folder.
 
@@ -32,7 +36,7 @@ First go to `about:config` in Firefox and set
 `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
 
 Second, go to `about:support` in Firefox, find `Profile Directory`,
-and click `Open Directory`. This will bring to the `profile`
+and click `Open Directory`. This will bring you to the `profile`
 folder discussed above.
 
 ## Tweaking the Code Yourself / Contributing
@@ -43,7 +47,7 @@ I might experiment with some other themes to make the slidedown tabs
 more robust.
 
 If you have suggestions on how to make the code more general,
-I would be open to pull requests / contributors.
+I am open to pull requests and contributors.
 
 ## Known Issues
 
