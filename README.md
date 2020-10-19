@@ -73,3 +73,9 @@ a new window, does work.
 Because I don't use typically  menu bar or bookmarks toolbar, I did not
 initially notice that these break the position of the slidedown tabs.
 I will investigate and attempt a fix.
+
+## Acknowledgments
+
+Much of the initial code is based two answers by
+[cor-el](https://support.mozilla.org/en-US/user/cor-el) in the Firefox
+Support Forums. Links to the relevant answers are provided in code.
