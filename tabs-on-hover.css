@@ -1,0 +1,75 @@
+#TabsToolbar {
+     top: 0px;
+     height:0px !important;
+    /*visibility: hidden;*/
+    transition: top ease-in 0.2s;
+    transition-delay: 1.5s;
+
+}
+
+#navigator-toolbox:hover #TabsToolbar{
+    top: 32px !important;
+    height: 0px !important;
+    visibility: visible !important;
+    transition: top ease-out 0.2s;
+    transition-delay: 0s;
+}
+
+/* or on focus */
+#navigator-toolbox:focus-within #TabsToolbar{
+   /* height: var(--tab-min-height); */
+   top: 32px !important;
+   visibility: visible !important;
+   transition: top 0s;
+   transition-delay: 0s;
+    z-index: 5;
+}
+
+#navigator-toolbox:focus-within .tabbrowser-tab{
+    background-color: rgba(50,50,52, 0.5) !important;
+    z-index: 5;
+}
+
+
+
+.tabbrowser-tab{
+   /*top: 16px;*/
+   z-index: 1;
+   background-color: rgba(50,50,52, 0.5) !important;
+}
+
+#nav-bar{
+    z-index:3
+}
+
+#urlbar-results:first-child {
+    margin-top: 32px !important;
+}
+
+#tabs-newtab-button{
+    position:absolute;
+    z-index:3;
+    visibility: visible !important;
+    /*background-color: #00000072 !important;*/
+    background-color: rgba(50,50,52,0.5) !important;
+    margin-left: 10px;
+    -moz-box-align: stretch;
+}
+
+#tabs-newtab-button:hover{
+    color: transparent !important;
+    background-color: rgba(115,115,115,0.5) !important;
+}
+
+#navigator-toolbox:focus-within #tabs-newtab-button{
+    background-color: rgba(50,50,52, 0.5) !important;
+    z-index: 5;
+}
+
+#tabs-newtab-button:hover > image {
+    background-color: transparent !important;
+}
+
+#TabsToolbar .toolbarbutton-1, #tabbrowser-arrowscrollbox::part(scrollbutton-up), #tabbrowser-arrowscrollbox::part(scrollbutton-down) {
+    margin: 0 !important;
+}

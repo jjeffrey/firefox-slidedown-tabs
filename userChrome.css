@@ -1,0 +1,5 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+@import url(tabs-on-bottom.css);
+@import url(tabs-on-hover.css);
+@import url(urlbar-size.css);
